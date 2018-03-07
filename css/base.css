@@ -1,0 +1,12 @@
+*{
+	background: rgba(0,0,0,.2);
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+.container{
+	max-width: 800px;/*使用max-width是为了使浏览器窗口缩小时可以跟着变化*/
+	margin:0 auto;
+}

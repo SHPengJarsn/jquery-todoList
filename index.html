@@ -3,13 +3,60 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>My todo</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
 </head>
 <body>
-<div>hellow world</div>
-<section>
-	<p>这是一个分支</p>
-	<p>这是第二个分支</p>
-</section>
+<div class="container"><!-- 总容器开始 -->
+	<section class="add-task">
+		<input type="text" />
+		<button>submit</button>
+	</section>
+	<ul class="task-list"><!-- 清单列表开始 -->
+		<li class="task-item"><!-- 任务开始 -->
+			<span><input type="checkbox"></span>
+			<span class="task-content">任务名称</span>
+			<span>delete</span>
+			<span>detail</span>
+		</li><!-- 任务结束 -->
+		<li class="task-item">
+			<span><input type="checkbox"></span>
+			<span class="task-content">任务名称</span>
+			<span>delete</span>
+			<span>detail</span>
+		</li>
+		<li class="task-item">
+			<span><input type="checkbox"></span>
+			<span class="task-content">任务名称</span>
+			<span>delete</span>
+			<span>detail</span>
+		</li>
+		<li class="task-item">
+			<span><input type="checkbox"></span>
+			<span class="task-content">任务名称</span>
+			<span>delete</span>
+			<span>detail</span>
+		</li>
+		<li class="task-item">
+			<span><input type="checkbox"></span>
+			<span class="task-content">任务名称</span>
+			<span>delete</span>
+			<span>detail</span>
+		</li>
+	</ul><!-- 清单列表结束 -->
+	<section class="task-detail"><!-- 任务详情开始 -->
+		<h2 class="content"><!-- 任务标题开始 -->
+			
+		</h2><!-- 任务标题结束 -->
+		<article class="desc"><!-- 任务描述开始 -->
+			
+		</article><!-- 任务描述结束 -->
+		<article class="remind"><!-- 任务定时提醒开始 -->
+			<input type="date">
+			<button type="submit">submit</button>
+		</article><!-- 任务定时提醒结束 -->
+	</section><!-- 任务详情结束 -->
+</div><!-- 总容器结束 -->
 <script type="text/javascript" src="./node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="./js/base.js"></script>
 </body>
 </html>
