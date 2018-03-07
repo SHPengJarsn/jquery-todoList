@@ -1,12 +1,66 @@
 *{
-	background: rgba(0,0,0,.2);
 	margin:0;
 	padding:0;
+		-webkit-transition:background .1s;
+	-o-transition:background .1s;
+	transition:background .1s;
+}
+body{
+	background:#00334b;
+	color:#fff;
 }
 li{
 	list-style:none;
 }
+input[type=text],input[type=date]{
+	width:100%;
+	background:#fff;
+	border:none;
+	display: block;
+	padding:10px 0;
+}
+.add-task{
+	overflow: hidden;
+	margin-bottom:10px;
+}
+.add-task-input{
+	display: inline-block;
+	float:left;
+	width:92%!important;
+}
+.add-task-but{
+	float:right;
+}
+button{
+	padding:10px;
+	border-radius: 3px;
+	border:none;
+	cursor: pointer;
+	background:#46c1e4;
+}
+button:hover{
+	background:#56c;
+}
 .container{
 	max-width: 800px;/*使用max-width是为了使浏览器窗口缩小时可以跟着变化*/
 	margin:0 auto;
+}
+h1{
+	text-align: center
+}
+.task-list{
+	margin:5px 0;
+}
+.task-item{
+	padding:10px;
+	background:#fff;
+	color:#333;
+	margin-bottom:2px;
+	border-radius:3px;
+	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,.4);
+	        box-shadow: 0 2px 3px rgba(0,0,0,.4);
+	cursor:pointer;
+}
+.task-item:hover{
+	background:#ddd;
 }
